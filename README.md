@@ -113,24 +113,26 @@ pip install torch torchvision
 
 ### `Hyperparameter Tuning.ipynb`
 
-**Purpose:** Provides framework for **systematic exploration** of training hyperparameters.
+**Purpose:** Implements a k-fold cross-validation evaluation framework used to assess model variants and hyperparameter choices in a reproducible manner..
 
 **Includes:**
 
-* Grid and manual search loops over learning rates, batch sizes, optimizers, etc.
-* Performance logging and visualization of hyperparameter effects.
-* Integration with `run_training()` for consistent evaluation.
+* Function run_kfold_training() using KFold from sklearn for multi-fold evaluation.
+* Integration of early stopping, learning rate scheduling, and class-weighted loss.
+* Aggregation of fold-wise results (mean and standard deviation).
+* Optional evaluation of multiple model variants via a model_list.
 
 **Usage:**
 
-1. Define parameter grid (example: learning rate, batch size).
-2. Run tuning loop.
-3. Analyze and record best-performing configuration.
+* Set configuration parameters (e.g., NUM_FOLDS, BATCH_SIZE, INITIAL_LR).
+* Run run_kfold_training(model_name) for a single model or loop over model_list.
+* Examine saved metrics and plots for mean and variance across folds.
 
 **Outputs:**
 
-* Tabulated results (`pandas.DataFrame`).
-* Visual comparisons of accuracy/loss across hyperparameters.
+* JSON file with per-fold and aggregated metrics.
+* Performance plots from plot_kfold_metrics().
+* Model summary text file (*_summary.txt).
 
 ---
 
