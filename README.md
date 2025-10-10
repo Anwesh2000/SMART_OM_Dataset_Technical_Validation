@@ -1,8 +1,7 @@
 # SMART-OM Dataset Technical Validation
-
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 1. [Abstract](#abstract)
 2. [Repository Structure](#repository-structure)
@@ -93,8 +92,8 @@ pip install torch torchvision
 **Key Features:**
 
 * Custom `ImageDataset` class for image–label loading and transformations.
-* Torch-based data loaders for training and validation.
-* Training and validation loops with loss tracking and metric logging.
+* Torch-based data loaders for training.
+* Training loops with loss tracking and metric logging.
 * Model checkpoint saving and visualization of training dynamics.
 * Includes options for transfer learning or training from scratch.
 
@@ -102,7 +101,7 @@ pip install torch torchvision
 
 * `set_seed(seed)` — ensures reproducibility.
 * `get_resnet50(num_classes)` — builds and initializes ResNet models.
-* `train_epoch()` and `validate_epoch()` — one-epoch training/validation routines.
+* `train_epoch()` and — one-epoch training routines.
 * `run_training()` — orchestrates full training cycle.
 
 **Outputs:**
@@ -166,7 +165,16 @@ jupyter notebook "Data Analysis and Split.ipynb"
 
 Ensure the dataset path variables are correctly set.
 
-### Step 2 — Model Training
+### Step 2 — Hyperparameter Search (Optional)
+
+```bash
+jupyter notebook "Hyperparameter Tuning.ipynb"
+```
+
+Use to fine-tune configurations before final model training.
+
+
+### Step 3 — Model Training
 
 ```bash
 jupyter notebook "Training.ipynb"
@@ -174,14 +182,6 @@ jupyter notebook "Training.ipynb"
 
 * Adjust hyperparameters as needed.
 * Outputs model weights and logs to specified folder.
-
-### Step 3 — Hyperparameter Search (Optional)
-
-```bash
-jupyter notebook "Hyperparameter Tuning.ipynb"
-```
-
-Use to fine-tune configurations before final model training.
 
 ### Step 4 — Model Evaluation
 
@@ -193,22 +193,8 @@ Generates metrics, plots, and prediction CSVs.
 
 ---
 
-## Reproducibility Checklist
-
-1. Record exact Python and package versions (use `pip freeze > requirements.txt`).
-2. Set fixed random seeds for all stochastic operations.
-3. Maintain the same train/val/test manifests across experiments.
-4. Log hyperparameters and configurations that produced each checkpoint.
-5. Report performance using averaged metrics and confidence intervals.
-
----
-
 ## Authorship and Contact
 
-**Maintainer:** *[Your Name]*
-**Affiliation:** *[Your Institution or Lab]*
-**Contact:** *[your.email@example.com](mailto:your.email@example.com)*
-
-If this repository supports a publication, please cite accordingly.
-> All sections follow a formal academic tone suitable for research dissemination or supplementary material for a publication.
-
+**Maintainer:** *Anwesh Nayak*
+**Affiliation:** *International Institute of Information Technology, Bangalore*
+**Contact:** *anwesh.Nayak@iiitb.ac.in*
