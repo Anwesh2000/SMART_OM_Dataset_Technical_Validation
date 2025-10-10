@@ -87,7 +87,7 @@ pip install torch torchvision
 
 ### `Training.ipynb`
 
-**Purpose:** Implements the **end-to-end model training pipeline** for oral pathology classification using ResNet architectures.
+**Purpose:** Implements the **end-to-end model training pipeline** for oral pathology classification using CNN based architectures.
 
 **Key Features:**
 
@@ -100,7 +100,7 @@ pip install torch torchvision
 **Functions Defined:**
 
 * `set_seed(seed)` — ensures reproducibility.
-* `get_resnet50(num_classes)` — builds and initializes ResNet models.
+* `get_model(num_classes)` — builds and initializes CNN models.
 * `train_epoch()` and — one-epoch training routines.
 * `run_training()` — orchestrates full training cycle.
 
