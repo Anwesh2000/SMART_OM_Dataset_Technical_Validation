@@ -198,5 +198,7 @@ Generates metrics, plots, and prediction CSVs.
 ## Authorship and Contact
 
 **Maintainer:** *Anwesh Nayak*
+
 **Affiliation:** *International Institute of Information Technology, Bangalore*
+
 **Contact:** *anwesh.Nayak@iiitb.ac.in*
