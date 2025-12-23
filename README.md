@@ -24,7 +24,7 @@ This repository contains code and notebooks for **data preparation**, **training
 
 ## Dataset
 
-The dataset is currently hosted in private mode on the [Dryad repository](https://doi.org/10.5061/dryad.gtht76hz6 "Link to Dataset"). It will be made publicly available upon acceptance of the manuscript. Downloading the dataset implies acceptance of the repository’s terms and conditions. 
+The dataset is currently hosted in private mode on the [Dryad repository](https://doi.org/10.5061/dryad.gtht76hz6 "Link to Dataset"). It will be made publicly available upon acceptance of the manuscript.
 
 ---
 
