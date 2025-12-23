@@ -4,9 +4,10 @@
 ## Table of Contents
 
 1. [Abstract](#abstract)
-2. [Repository Structure](#repository-structure)
-3. [Environment and Dependencies](#environment-and-dependencies)
-4. [Detailed File Descriptions](#detailed-file-descriptions)
+2. [Dataset](#dataset)
+3. [Repository Structure](#repository-structure)
+4. [Environment and Dependencies](#environment-and-dependencies)
+5. [Detailed File Descriptions](#detailed-file-descriptions)
 
    * [Data Analysis and Split.ipynb](#data-analysis-and-splitipynb)
    * [Training.ipynb](#trainingipynb)
@@ -18,6 +19,12 @@
 ## Abstract
 
 This repository contains code and notebooks for **data preparation**, **training**, **hyperparameter optimization**, and **evaluation** of convolutional neural network models applied to an **oral pathology image dataset**.
+
+---
+
+## Dataset
+
+The dataset has been uploaded to the Dryad repository in private mode and can be accessed using the provided [here](https://doi.org/10.5061/dryad.gtht76hz6) . After the manuscript has been approved for publication, this link will become active and the dataset will become public. Users will be able to download the dataset directly from the repository page, and by doing so, will be automatically accepting the terms and conditions for using the data. 
 
 ---
 
