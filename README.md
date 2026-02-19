@@ -24,7 +24,7 @@ This repository contains code and notebooks for **data preparation**, **training
 
 ## Dataset
 
-The dataset is publicly available on the Figshare repository at [Figshare repository](https://doi.org/10.6084/m9.figshare.31341790 "Link to Dataset").
+The dataset is publicly available on the [Figshare repository](https://doi.org/10.6084/m9.figshare.31341790 "Link to Dataset").
 
 ### Citation
 
