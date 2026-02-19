@@ -30,10 +30,7 @@ The dataset is publicly available on the [Figshare repository](https://doi.org/1
 
 If you use this dataset in your research, please cite:
 
-> Dr Madan Kumar P D, Dr Ranganathan K, Dr Rajeshwari S, Dr. M Pavithra, Dr Lavanya C, Anwesh Nayak, Ramesh Kestur, Sushree Behera, and Raghuram Bharadwaj(2026).
-> **SMART-OM: A SMARTphone based expert annotated dataset of Oral Mucosa images.**  
-> figshare  
-> DOI:https://doi.org/10.6084/m9.figshare.31341790
+> P D, Dr Madan Kumar; K, Dr Ranganathan; S, Dr Rajeshwari; Pavithra, Dr. M; Lavanya C, Dr; Nayak, Anwesh; et al. (2026). SMART-OM: A SMARTphone based expert annotated   dataset of Oral Mucosa images. figshare. Dataset. https://doi.org/10.6084/m9.figshare.31341790.v1
 
 ---
 
