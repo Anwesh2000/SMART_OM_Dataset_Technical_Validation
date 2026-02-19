@@ -24,16 +24,16 @@ This repository contains code and notebooks for **data preparation**, **training
 
 ## Dataset
 
-The dataset is currently hosted in private mode on the [Dryad repository](https://doi.org/10.5061/dryad.gtht76hz6 "Link to Dataset"). It will be made publicly available upon acceptance of the manuscript.
+The dataset is publicly available on the Figshare repository at [Figshare repository](https://doi.org/10.6084/m9.figshare.31341790 "Link to Dataset").
 
 ### Citation
 
 If you use this dataset in your research, please cite:
 
-> Kumar, P. D. Madan; Ranganathan, K. S.; Rajeshwari, Pavithra M. C.; Lavanya; Nayak, Anwesh; Kestur, Ramesh; Behera, Sushree; Diddigi, Raghuram Bharadwaj (2025).  
-> **SMART-OM: A SMARTphone-based expert-annotated dataset of Oral Mucosa images.**  
-> Dryad Digital Repository.  
-> https://doi.org/10.5061/dryad.gtht76hz6 *(currently in private mode)*
+> Dr Madan Kumar P D, Dr Ranganathan K, Dr Rajeshwari S, Dr. M Pavithra, Dr Lavanya C, Anwesh Nayak, Ramesh Kestur, Sushree Behera, and Raghuram Bharadwaj(2026).
+> **SMART-OM: A SMARTphone based expert annotated dataset of Oral Mucosa images.**  
+> figshare  
+> DOI:https://doi.org/10.6084/m9.figshare.31341790
 
 ---
 
